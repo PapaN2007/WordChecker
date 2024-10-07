@@ -1,6 +1,11 @@
 public class WordChecker {
     /** Initialized in the constructor and contains no null elements */
     private ArrayList<String> wordList;
+    ArrayList<String> wordList = new ArrayList<String>();
+    wordList.add("an")
+    wordList.add("band")
+    wordList.add("band")
+    wordList.add("abandon")
 
     /**
      * Returns true if each element of wordList (except the first) contains the
@@ -10,7 +15,10 @@ public class WordChecker {
      * Postcondition: wordList is unchanged.
      */
     public boolean isWordChain() {
-        /* to be implemented in part (a) */ }
+        if (wordList.length()<2) return false;
+        for i in range(i+1, wordList.lengthy()) {
+            System.out.println("hell9o")
+        }
 
     /**
      * Returns an ArrayList<String> based on strings from wordList that start
@@ -23,4 +31,5 @@ public class WordChecker {
      */
     public ArrayList<String> createList(String target) {
         /* to be implemented in part (b) */ }
+}
 }
